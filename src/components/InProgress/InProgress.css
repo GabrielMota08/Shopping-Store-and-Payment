@@ -1,0 +1,126 @@
+.section_payment{
+    margin-top: 7em;
+    width: 90%;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px gray;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.container_payment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top_div_payment, .top_div_payment a, .top_div_payment a h2{
+    display: flex;
+    align-items: center;
+}
+
+.top_div_payment a{
+    width: 1.6em;
+    text-decoration: none;
+    color: rgb(33, 149, 207);
+    transition-duration: 0.4s;
+    height: 1.5em;
+}
+
+.top_div_payment a:last-child{
+    font-size: 20px;
+    font-weight: 570;
+    width: 13em;
+    padding-left: 1em;
+}
+
+.top_div_payment a:hover{
+    color: black;
+}
+
+.top_div_payment{
+    padding-bottom: 0.4em;
+}
+
+.cart_or_saves{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+}
+
+.cart_or_saves p{
+    border-bottom: 1px solid rgb(33, 149, 207);
+    padding-inline: 4%;
+    color: rgb(33, 149, 207);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.cart_or_saves p:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.cart_or_saves p:last-child{
+    margin-left: 3em;
+}
+
+.products_progress{
+    border-top: 2px solid rgba(128, 128, 128, 0.2);
+}
+
+.lower_payment{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-block: 2em;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+}
+
+.total_progress{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.total_progress h3{
+    margin-left: 4em;
+}
+
+.buy_all_progress{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2em;
+}
+
+.buy_all_progress h3{
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0.7em 1em;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.buy_all_progress h3:hover{
+    background-color: rgb(0, 170, 255);
+}
+
+.no_product_progress{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.no_product_progress img{
+    max-width: 40%;
+}
+
+@media (max-width: 850px){
+    .cart_or_saves{
+        width: 100%;
+    }
+}

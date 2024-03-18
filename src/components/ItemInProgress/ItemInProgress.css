@@ -1,0 +1,114 @@
+.item_progress {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+    padding: 0.4em;
+    position: relative;
+    height: auto;
+    flex-wrap: wrap;
+    padding-block: 0.7em;
+}
+
+.divImg_progress img{
+    width: 140px;
+}
+
+.info_progress{
+    height: 9rem;
+    width: 100%;
+    max-width: 737px;
+}
+
+.name_product_progress{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.7em;
+}
+
+.price_product_progress{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.free_shipping_progress{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 166, 80);
+    font-size: 20px;
+}
+
+.free_shipping_progress p{
+    padding-left: 0.4em;
+}
+
+.more_info_progress{
+    height: 9rem;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+    right: 0;
+    flex-grow: 1;
+}
+
+.section_info{
+    justify-content: space-between;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.options_product_progress{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    width: 100%;
+    max-width: 442px;
+    justify-content: space-around;
+}
+
+.options_product_progress h4{
+    color: rgb(33, 149, 207);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.options_product_progress h4:hover{
+    color: black;
+}
+
+.quantity_menu_progress{
+    display: flex;
+    border: 2px solid gray;
+    width: 7em;
+    height: 3.5em;
+    border-radius: 5%;
+    justify-content: space-around;
+    align-items: center;
+    user-select: none;
+}
+
+@media (max-width: 1200px){
+    .item_progress{
+        justify-content: center;
+    }
+}
+
+.remove_product_progress .gray_decrease {
+    color: rgba(128, 128, 128, 0.35);
+}
+
+.remove_product_progress .blue_decrease, .add_product_progress, .quantity_product_progress {
+    color: rgb(33, 149, 207);
+}
+
+.remove_product_progress .blue_decrease, .add_product_progress{
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.remove_product_progress .blue_decrease:hover, .add_product_progress:hover{
+    color: black;
+}

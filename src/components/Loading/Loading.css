@@ -1,0 +1,21 @@
+.loadingIcon{
+    animation: rotation 1s linear infinite;
+    font-size: 20px;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.divLoadingIcon{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 10em;
+}
